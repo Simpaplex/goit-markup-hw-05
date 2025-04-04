@@ -426,7 +426,7 @@
       <div class="subscribe">
         <p class="subscribe-text">Subscribe</p>
         <form class="subscribe-form">
-          <label aria-label="input-email" class="subscribe-form-email"><input class="subscribe-form-inp" type="email"
+          <label aria-label="input-email" class="subscribe-form-email"><input class="subscribe-form-inp" type="email" name="email"
               placeholder="E-mail"></label>
           <button class="subscribe-btn" type="submit">Subscribe<svg class="icon-send" width="24" height="24">
               <use href="./images/icons.svg#icon-send"></use>
@@ -444,41 +444,51 @@
         </svg>
       </button>
       <p class="modal-title">Leave your contacts and we will call you back</p>
-      <form class="modal-form">
-        <label class="modal-lable" for="user-name">Name</label>
-        <div class="modal-input-field">
-          <input class="modal-input" name="user-name" type="text" id="user-name">
-          <svg class="input-icon" width="18" height="24">
-            <use href="./images/icons.svg#icon-person"></use>
-          </svg>
-        </div>
-        <label class="modal-lable" for="user-phone">Phone</label>
-        <div class="modal-input-field">
-          <input class="modal-input" name="user-phone" type="text" id="user-phone">
-          <svg class="input-icon" width="18" height="24">
-            <use href="./images/icons.svg#icon-phone"></use>
-          </svg>
-        </div>
-        <label class="modal-lable" for="user-email">Email</label>
-        <div class="modal-input-field">
-          <input class="modal-input" name="user-email" type="text" id="user-email">
-          <svg class="input-icon" width="18" height="24">
-            <use href="./images/icons.svg#icon-email"></use>
-          </svg>
-        </div>
-        <label class="modal-lable" for="user-text">Comment</label>
-        <textarea class="modal-textarea" name="user-text" id="user-text" placeholder="Text input"></textarea>
-        <div class="modal-chekbox-field">
-          <input class="chekbox-aggriment visually-hidden" type="checkbox" name="aggriment" id="aggriment" value="true">
-          <label class="chekbox-text" for="aggriment"><span class="modal-checkbox">
-              <svg class="checkbox-icon" width="10" height="8">
-                <use href="./images/icons.svg#icon-check"></use>
+      <div class="modal-form">
+        <form>
+          <div class="modal-form-input">
+            <label class="modal-lable" for="user-name">Name</label>
+            <div class="modal-input-field">
+              <input class="modal-input" name="user-name" type="text" id="user-name">
+              <svg class="input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
               </svg>
-            </span>I accept the terms and conditions of the &nbsp;<a class="policy-link" href="">Privacy
-              Policy</a></label>
-        </div>
-        <button class="modal-btn" type="submit">Send</button>
-      </form>
+            </div>
+          </div>
+          <div class="modal-form-input">
+            <label class="modal-lable" for="user-phone">Phone</label>
+            <div class="modal-input-field">
+              <input class="modal-input" name="user-phone" type="text" id="user-phone">
+              <svg class="input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-input">
+            <label class="modal-lable" for="user-email">Email</label>
+            <div class="modal-input-field">
+              <input class="modal-input" name="user-email" type="text" id="user-email">
+              <svg class="input-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="modal-form-textarea">
+            <label class="modal-lable" for="user-text">Comment</label>
+            <textarea class="modal-textarea" name="user-text" id="user-text" placeholder="Text input"></textarea>
+          </div>
+          <div class="modal-chekbox-field">
+            <input class="chekbox-aggriment visually-hidden" type="checkbox" name="aggriment" id="aggriment" value="true">
+            <label class="chekbox-text" for="aggriment"><span class="modal-checkbox">
+                <svg class="checkbox-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-check"></use>
+                </svg>
+              </span>I accept the terms and conditions of the &nbsp;<a class="policy-link" href="">Privacy
+                Policy</a></label>
+          </div>
+          <button class="modal-btn" type="submit">Send</button>
+        </form>
+      </div>
 
 
     </div>
