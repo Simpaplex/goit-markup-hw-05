@@ -654,7 +654,8 @@ header {
   border: none;
 }
 
-.modal-close-btn:hover .icon-close .modal-close-btn:focus .icon-close {
+.modal-close-btn:hover .icon-close,
+.modal-close-btn:focus .icon-close {
   fill: #ffffff;
 }
 
