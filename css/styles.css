@@ -745,9 +745,9 @@ header {
 }
 
 .modal-checkbox {
-  display: inline-flex;
   width: 16px;
   height: 16px;
+  display: inline-flex;
   background-color: transparent;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
