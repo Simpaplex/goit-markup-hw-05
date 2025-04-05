@@ -597,6 +597,7 @@ header {
   background-color: rgba(46, 47, 66, 0.4);
   position: fixed;
   top: 0;
+  left: 0;
   z-index: 999;
   opacity: 0;
   pointer-events: none;
@@ -772,7 +773,6 @@ header {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
   align-items: center;
 }
 
